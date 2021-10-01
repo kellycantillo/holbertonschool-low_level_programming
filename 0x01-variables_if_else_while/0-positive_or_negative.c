@@ -6,9 +6,11 @@
  *  * main - Prints if number is positive, zero or negative
  *   *
  *    * Return: Always (Success)
+ *     
  *     */
-int main(void)
-{
+
+ int main(void)
+ {
     int n;
 
     srand(time(0));
@@ -21,5 +23,5 @@ int main(void)
     else
 	printf("%d is negative\n", n);
 
-return (0);
-}
+ return (0);
+ }
