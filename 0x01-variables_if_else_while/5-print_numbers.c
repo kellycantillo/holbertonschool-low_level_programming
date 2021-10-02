@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Print alfabet
+ * main - Print number
  *
  * Return: Always (Success)
  */
@@ -12,12 +12,9 @@ int main(void)
 {
 	char ch;
 
-	for (ch = 'a';  ch <= 'z'; ch++)
-	{
-		if (ch != 'q' && ch != 'e')
+	for (ch = '0';  ch <= '9'; ch++)
 		putchar(ch);
 
-	}
 	putchar('\n');
 
 	return (0);
